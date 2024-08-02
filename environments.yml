@@ -1,0 +1,17 @@
+name: ppilot
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - psutil>=5.8.0
+  - pip
+  - pip:
+    - pre-commit
+    - fastapi>=0.100.0
+    - uvicorn
+    - numpy
+#    - sentence-transformers>=3.0.1
+    - modelscope>=1.16.1
+    - faiss-cpu>=1.8.0
+    - FlagEmbedding>=1.2.10
+    - nltk>=3.8.1
