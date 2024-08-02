@@ -2,6 +2,12 @@
   "document_loader_configs": [
     {
       "extension": ".txt"
+    },
+    {
+      "extension": ".pdf"
+    },
+    {
+      "extension": ".md"
     }
   ],
   "document_parser_configs": [
@@ -9,6 +15,12 @@
       "extension": ".txt",
       "char_chunk_size": 1024,
       "char_overlap_size": 256
+    },
+    {
+      "extension": ".pdf"
+    },
+    {
+      "extension": ".md"
     }
   ],
   "embedder_config": {
